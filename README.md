@@ -1,6 +1,6 @@
 # flyway
 
-##Download jasypt
+## Download jasypt
 https://sourceforge.net/projects/jasypt/
  ./encrypt.sh  input=<db_password> password=<secret>
 
