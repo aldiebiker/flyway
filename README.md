@@ -1,17 +1,14 @@
 # flyway
 
-## Download jasypt
-* https://sourceforge.net/projects/jasypt/
-* ./encrypt.sh  input=<db_password> password= <secret>
+## convention over configuration 
 
 ## command line
-mvn -Djasypt.encryptor.password=<secret> clean spring-boot:run
+
+mvn  clean spring-boot:run
 
 ## Demo use cases
-
--  Wrong file version in dev
-        - Migration already done (clean disabled)
-        - Migration already done (clean enabled)
-
-
-
+- First run
+- Wrong file version in dev
+    - Migration already done (clean disabled)
+- Wrong file version in prod
+    - Migration already done (clean enabled)
